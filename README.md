@@ -1,12 +1,13 @@
 <h1>Desafio Atração e Seleção</h1>
 <h2>Restaurar Banco de Dados</h2>
-<p>1- Para pegar a imagem Docker, execute o Windows Power Shell como Administrador</p>
-2- Execute o comando:
-  docker pull samrodrigues/sqlserver_ats
-3- Quando o comando acima terminar de executar, execute o comando: 
-  docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=123@Mudar" -p 1433:1433 samrodrigues/sqlserver_ats
-4- Através do Docker Desktop, em Containers, você deverá ver o Docker "reverent_lewin" com o Status "Running"
-
+<ol>
+<li>Para pegar a imagem Docker, execute o Windows Power Shell como Administrador</<li>>
+<li>Execute o comando:
+  docker pull samrodrigues/sqlserver_ats<li>
+<li>Quando o comando acima terminar de executar, execute o comando: 
+  docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=123@Mudar" -p 1433:1433 samrodrigues/sqlserver_ats<li>
+<li>Através do Docker Desktop, em Containers, você deverá ver o Docker "reverent_lewin" com o Status "Running"<li>
+</ol>
 <h2>Rodar Solução da API</h2>
 1- Realizar Download ou clone do Repositório
 2- Abrir pasta ATSRestAPi
