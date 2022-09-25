@@ -12,6 +12,7 @@ namespace ATSRestApi.Domain.Entities
     public DateTime DataNascimento { get; set; }
     public string Estado { get; set; }
     public string Cidade { get; set; }
+    public int? IdCurriculo { get; set; }
     public DateTime DataCadastro { get; set; }
   }
 }

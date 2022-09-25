@@ -16,8 +16,7 @@ namespace ATSRestApi.Application.Mappers
       var curriculo = new Curriculo()
       {
         Id = curriculoDto.Id,
-        Arquivo = curriculoDto.Arquivo,
-        IdCandidato = curriculoDto.IdCandidato
+        Arquivo = curriculoDto.Arquivo
       };
 
       return curriculo;
@@ -28,8 +27,7 @@ namespace ATSRestApi.Application.Mappers
       var curriculoDto = new CurriculoDto()
       {
         Id = curriculo.Id,
-        Arquivo = curriculo.Arquivo,
-        IdCandidato = curriculo.IdCandidato
+        Arquivo = curriculo.Arquivo
       };
 
       return curriculoDto;
@@ -40,8 +38,7 @@ namespace ATSRestApi.Application.Mappers
       var dto = curriculos.Select(c => new CurriculoDto
       {
         Id = c.Id,
-        Arquivo = c.Arquivo,
-        IdCandidato = c.IdCandidato
+        Arquivo = c.Arquivo
       });
       return dto;
     }

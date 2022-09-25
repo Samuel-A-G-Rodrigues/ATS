@@ -13,5 +13,6 @@ namespace ATSRestApi.Application.Dtos
     public DateTime DataNascimento { get; set; }
     public string Estado { get; set; }
     public string Cidade { get; set; }
+    public int? IdCurriculo { get; set; }
   }
 }

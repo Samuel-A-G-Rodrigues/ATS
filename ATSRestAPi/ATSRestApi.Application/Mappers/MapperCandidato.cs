@@ -22,7 +22,8 @@ namespace ATSRestApi.Application.Mappers
         CPF = candidatoDto.CPF,
         DataNascimento = candidatoDto.DataNascimento,
         Estado = candidatoDto.Estado,
-        Cidade = candidatoDto.Cidade
+        Cidade = candidatoDto.Cidade,
+        IdCurriculo = string.IsNullOrEmpty(candidatoDto.IdCurriculo.ToString()) ?0: candidatoDto.IdCurriculo
       };
 
       return candidato;
@@ -40,7 +41,8 @@ namespace ATSRestApi.Application.Mappers
         CPF = candidato.CPF,
         DataNascimento = candidato.DataNascimento,
         Estado = candidato.Estado,
-        Cidade = candidato.Cidade
+        Cidade = candidato.Cidade,
+        IdCurriculo = string.IsNullOrEmpty(candidato.IdCurriculo.ToString()) ? 0 : candidato.IdCurriculo
       };
 
       return candidatoDto;
@@ -58,7 +60,8 @@ namespace ATSRestApi.Application.Mappers
         CPF = c.CPF,
         DataNascimento = c.DataNascimento,
         Estado = c.Estado,
-        Cidade = c.Cidade
+        Cidade = c.Cidade,
+        IdCurriculo = string.IsNullOrEmpty(c.IdCurriculo.ToString()) ? 0 : c.IdCurriculo
       });
       return dto;
     }
