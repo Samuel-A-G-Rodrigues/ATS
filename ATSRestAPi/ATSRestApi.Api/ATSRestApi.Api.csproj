@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!--<PackageReference Include="Autofac" Version="5.1.4" />-->
+		<PackageReference Include="Autofac" Version="6.4.0" />
+		<PackageReference Include="Autofac.Extensions.DependencyInjection" Version="6.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.4.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ATSRestApi.Domain.Infrastructure\ATSRestApi.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

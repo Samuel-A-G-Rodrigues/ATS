@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ATSRestApi.Domain.Core/1.0.0": {
+        "dependencies": {
+          "ATSRestApi.Domain": "1.0.0"
+        },
+        "runtime": {
+          "ATSRestApi.Domain.Core.dll": {}
+        }
+      },
+      "ATSRestApi.Domain/1.0.0": {
+        "runtime": {
+          "ATSRestApi.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ATSRestApi.Domain.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ATSRestApi.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

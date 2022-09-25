@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = ATSRestApi.Infrastructure
+build_property.ProjectDir = C:\Users\samuel.aurelio\Documents\GitHub\ATS\ATSRestAPi\ATSRestApi.Domain.Infrastructure\
