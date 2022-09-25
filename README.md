@@ -2,16 +2,16 @@
 
 <h2>Restaurar Banco de Dados</h2>
 <ol>
-  <li>Para pegar a imagem Docker, execute o Windows Power Shell como Administrador</li>
+  <li>Execute o Windows Power Shell como Administrador</li>
   <li>Execute o comando: <br> docker pull samrodrigues/sqlserver_ats</li>
-  <li>Quando o comando acima terminar de executar, execute o comando: <br> docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=123@Mudar" -p 1433:1433 samrodrigues/sqlserver_ats</li>
-  <li>Através do Docker Desktop, em Containers, você deverá ver o Docker "reverent_lewin" com o Status "Running"</li>
+  <li>Quando o comando acima termina, execute o comando: <br> docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=123@Mudar" -p 1433:1433 samrodrigues/sqlserver_ats</li>
+  <li>Através do Docker Desktop, em Containers, você poderá ver o Docker "reverent_lewin" com o Status "Running"</li>
 </ol>
 
 <h2>Rodar Solução da API</h2>
 <ol>
   <li>Realizar Download ou clone do Repositório</li>
-  <li>Abrir pasta ATSRestAPi</li>
+  <li>Se necessário, extrair arquivo e Abrir pasta ATSRestAPi</li>
   <li>Na pasta ATSRestAPi, abir o arquivo ATSRestApi.sln. A Solution será aberta no Visual Studio</li>
   <li>Na parte superior central do Visual Studio, clicar no botão Play (Cor verde) que está escrito "IIS Express" ou apertar "F5" no teclado</li>
   <li>Será aberto o Swagger</li>
