@@ -24,7 +24,7 @@
   <li>Selecionar a opção Link</li>
   <li>Colocar URL no campo e clicar em Continue
      <h5>ATS Candidato</h5>
-     https://www.getpostman.com/collections/be23937326e54267ea2b
+     https://www.getpostman.com/collections/85f66e035cf0d20d7357
      <h5>ATS Curriculo</h5>
-     https://www.getpostman.com/collections/350b68785b365d0b19c3</li>
+     https://www.getpostman.com/collections/844cc6bf759217dab996</li>
  </ol>
